@@ -41,7 +41,7 @@ I assume that you already have a _GCP Project_ set up, let's say it's called `mi
 
 4. Next we clone this GIT repository to Cloud Shell:
 
-        cloudshell:~ (mining-project-12345)$ git clone https://github.com/mludvig/gcp-ethereum-miner.git
+        cloudshell:~ (mining-project-12345)$ git clone https://github.com/ercubed/gcp-ethereum-miner.git
         Cloning into 'gcp-ethereum-miner'...
         remote: Enumerating objects: 41, done.
         remote: Counting objects: 100% (41/41), done.
@@ -59,7 +59,7 @@ I assume that you already have a _GCP Project_ set up, let's say it's called `mi
         coin_name           = "ETC"
 
         # Ethereum wallet address
-        wallet_address      = "0x99b36B44cf319c9E0ed4619ee2050B21ECac2c15"
+        wallet_address      = "0x44D591b1FF3374aA6EeE2aD49c23956B52343838"
 
         # Launch instances in these provisioning models (best for high availability)
         provisioning_models = ["SPOT", "STANDARD"]
@@ -82,14 +82,14 @@ I assume that you already have a _GCP Project_ set up, let's say it's called `mi
 
     You may be presented with a pop up saying "Authorize Cloud Shell" to make GCP API calls - click *Authorize*.
 
-You will see how Terraform starts creating the Instance Templates and Instance Groups. 
+You will see how Terraform starts creating the Instance Templates and Instance Groups.
 When it's done head over to the [VM console](https://console.cloud.google.com/compute/instances)
-and you should see some instances starting up. 
+and you should see some instances starting up.
 
 ## GPU Quotas
 
 If there are none check out the [Instance Groups](https://console.cloud.google.com/compute/instanceGroups/list)
-console and in there the ERRORS tab in some of the IGs to figure out what's going on. 
+console and in there the ERRORS tab in some of the IGs to figure out what's going on.
 Most likely you'll be limited by **GPU Quotas** and will see messages like:
 
 * Instance creation failed: Quota GPUS_ALL_REGIONS exceeded. Limit 0.0 globally.

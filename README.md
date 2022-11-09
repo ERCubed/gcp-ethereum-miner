@@ -20,9 +20,11 @@ Cloud Platform (GCP) GPU-enabled VM instances.
   very quickly_ - you have been warned! Unless you've got access to a free GCP account
   it may not be the wisest thing to do!
 
+* This script is intended for informational and test purposes only.
+
 ## Medium article
 
-Check out my blog post [**Easy Etherum mining on GCP**](https://medium.com/coinmonks/easy-ethereum-mining-on-gcp-576f0aaaeeed) for more details.
+Check out the blog post [**Easy Etherum mining on GCP**](https://medium.com/coinmonks/easy-ethereum-mining-on-gcp-576f0aaaeeed) for more details.
 
 ## Quick start
 

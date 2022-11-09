@@ -20,19 +20,6 @@ locals {
       accelerator_count = 2
       instance_type     = "n1-standard-1"
       regions = [
-        "asia-east1",
-        "asia-northeast1",
-        "asia-northeast3",
-        "asia-south1",
-        "asia-southeast1",
-        "asia-southeast2",
-        "australia-southeast1",
-        "europe-west1",
-        "europe-west2",
-        "europe-west3",
-        "europe-west4",
-        "northamerica-northeast1",
-        "southamerica-east1",
         "us-central1",
         "us-east1",
         "us-east4",
@@ -46,8 +33,6 @@ locals {
       accelerator_count = 1
       instance_type     = "n1-standard-1"
       regions = [
-        "asia-east1",
-        "europe-west4",
         "us-central1",
         "us-east1",
         "us-west1",
@@ -58,10 +43,6 @@ locals {
       accelerator_count = 1
       instance_type     = "a2-highgpu-1g"
       regions = [
-        "asia-northeast1",
-        "asia-northeast3",
-        "asia-southeast1",
-        "europe-west4",
         "us-central1",
         "us-east1",
         "us-west1",

@@ -27,7 +27,7 @@ variable "gpu_types" {
 }
 
 variable "group_size" {
-  default = 16
+  default = 8
 }
 
 variable "provisioning_models" {
